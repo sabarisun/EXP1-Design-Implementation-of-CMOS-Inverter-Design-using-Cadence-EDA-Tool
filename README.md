@@ -1,20 +1,20 @@
-Ex No: 01     Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools   
+# Ex No: 01     Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools   
 
-Aim:
+## Aim:
 To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse its electrical characteristics, and understand the fundamental principles of CMOS technology, including the design process, layout, and simulation techniques.
 
-Tools Required:
+## Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+## SCHEMATIC SIMULATION - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
 •	virtuoso 
-Procedure for Schematic simulation using Cadence
+## Procedure for Schematic simulation using Cadence
 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -95,7 +95,7 @@ Analog simulation by SPECTRE.
 •	Execute Simulation -- Net list and Run
  ![image](https://github.com/user-attachments/assets/3aac50ec-bc0f-406e-be2e-a504b8afa8c9)
 
-For Transient Analysis Settings and Output
+## For Transient Analysis Settings and Output
  
  
  ![image]![vlsi trans](https://github.com/user-attachments/assets/49a03649-8173-4e3d-b67b-8ec9af87039d)
@@ -104,7 +104,7 @@ For Transient Analysis Settings and Output
  ![image]![vlsi op](https://github.com/user-attachments/assets/f1f760b4-ca33-4621-9c58-9aefb3a4c953)
 
 
- For DC Analysis Settings and Output
+## For DC Analysis Settings and Output
 ![image]![vlsi dc](https://github.com/user-attachments/assets/b5f94920-33bb-451f-a120-4e4c681d35e5)
 
 
@@ -118,7 +118,7 @@ For Transient Analysis Settings and Output
 
  
 
-Results:
+## Results:
 1.	Successfully designed the CMOS inverter schematic using Cadence EDA tools.
 2.	The simulation results demonstrated the correct logic operation of the inverter, where the output voltage switches between high (Vdd) and low (0V) levels, corresponding to the input voltage transitions.
 3.	The Voltage Transfer Characteristic (VTC) curve was plotted, showing the relationship between input and output voltages.
